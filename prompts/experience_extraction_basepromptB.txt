@@ -1,0 +1,9 @@
+Imagine 20 scenes that describe the protagonist {agent_name} only based on the above context. The scenes should be described concisely, focusing on the background
+and without telling the details. The scenes can be chats, debates, discussions, speech, etc. Try to be creative and diverse. Do not omit.
+
+Example Output:
+
+{"Location": "...", "Status": "..."}
+{"Location": "...", "Status": "..."}
+
+Return the result as JSONL

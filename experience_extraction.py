@@ -9,7 +9,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=api_key)
 
-with open("prompts/experience_extraction_baseprompt.txt", "r", encoding="utf-8") as f:
+with open("prompts/experience_extraction_basepromptB.txt", "r", encoding="utf-8") as f:
     base_prompt = f.read()
 
 all_experience = []
@@ -24,7 +24,7 @@ for i in range(1, 4):
 
     # 프롬프트 요청
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4.1",
         messages=[
             {"role": "user", "content": full_prompt}
         ],
