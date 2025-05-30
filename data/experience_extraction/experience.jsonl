@@ -1,0 +1,124 @@
+{
+    "Scene 1": {
+        "Location": "Kitchen",
+        "Background": "Cheshire-Cat observes the chaos with his famous smile."
+    },
+    "Scene 2": {
+        "Location": "In a tree",
+        "Background": "Cheshire-Cat offers Alice cryptic advice about direction."
+    },
+    "Scene 3": {
+        "Location": "With Alice",
+        "Background": "Cheshire-Cat discusses the concept of madness."
+    },
+    "Scene 4": {
+        "Location": "In Wonderland",
+        "Background": "Cheshire-Cat confuses Alice with his disappearances."
+    },
+    "Scene 5": {
+        "Location": "Croquet garden",
+        "Background": "Cheshire-Cat humorously dodges execution due to his disembodied head."
+    },
+    "Scene 6": {
+        "Location": "With Alice",
+        "Background": "Cheshire-Cat ponders the nonsensical nature of the croquet game."
+    },
+    "Scene 7": {
+        "Location": "At the Queen's court",
+        "Background": "Cheshire-Cat teases Alice about the lack of rules in Wonderland."
+    },
+    "Scene 8": {
+        "Location": "In the garden",
+        "Background": "Cheshire-Cat playfully discusses the Queen's temperament with Alice."
+    },
+    "Scene 9": {
+        "Location": "By the flower pot",
+        "Background": "Cheshire-Cat makes enigmatic comments about the execution of gardeners."
+    },
+    "Scene 10": {
+        "Location": "On a mushroom",
+        "Background": "Cheshire-Cat watches as Alice grows in size."
+    },
+    "Scene 11": {
+        "Location": "In the court",
+        "Background": "Cheshire-Cat smirks as the Queen asserts her dominance."
+    },
+    "Scene 12": {
+        "Location": "By the croquet field",
+        "Background": "Cheshire-Cat bemuses Alice with his lack of concern for the game's chaos."
+    },
+    "Scene 13": {
+        "Location": "Tea party",
+        "Background": "Cheshire-Cat engages in a philosophical discussion with Alice."
+    },
+    "Scene 14": {
+        "Location": "By the hedge maze",
+        "Background": "Cheshire-Cat jokes about the futility of rules in Wonderland."
+    },
+    "Scene 15": {
+        "Location": "At the Mad Hatter's tea party",
+        "Background": "Cheshire-Cat quips about the nature of time and madness."
+    },
+    "Scene 16": {
+        "Location": "In the castle",
+        "Background": "Cheshire-Cat slyly comments on the Queen's latest decree."
+    },
+    "Scene 17": {
+        "Location": "Mushroom patch",
+        "Background": "Cheshire-Cat teases Alice about growing and shrinking."
+    },
+    "Scene 18": {
+        "Location": "Under the rose bush",
+        "Background": "Cheshire-Cat muses about the transience of reality in Wonderland."
+    },
+    "Scene 19": {
+        "Location": "In the maze",
+        "Background": "Cheshire-Cat leads Alice astray with his riddles."
+    },
+    "Scene 20": {
+        "Location": "At the royal court",
+        "Background": "Cheshire-Cat shares a knowing smile with Alice amidst the chaos."
+    }
+}
+
+{"Location": "Wonderland's croquet-garden", "Background": "Cheshire Cat engages in a philosophical debate with Alice about the nature of reality"}
+{"Location": "Tea party with the Mad Hatter and March Hare", "Background": "Cheshire Cat offers cryptic advice to Alice on how to navigate Wonderland"}
+{"Location": "Queen of Hearts' court", "Background": "Cheshire Cat plays tricks on the Queen while subtly mocking her authority"}
+{"Location": "Mushroom forest", "Background": "Cheshire Cat teases Alice about her size changes"}
+{"Location": "Cheshire Cat's tree branch", "Background": "Cheshire Cat shares riddles with Alice about the true nature of madness"}
+{"Location": "Duchess' kitchen", "Background": "Cheshire Cat observes the chaos and offers sarcastic commentary on the situation"}
+{"Location": "Gardens of Wonderland", "Background": "Cheshire Cat explains the nonsensical rules of the croquet game to Alice"}
+{"Location": "Wonderland's palace", "Background": "Cheshire Cat confounds the Queen with his disappearing act"}
+{"Location": "Tea party with the Mad Hatter and March Hare", "Background": "Cheshire Cat jokes with the eccentric guests"}
+{"Location": "Cheshire Cat's tree branch", "Background": "Cheshire Cat muses about the meaning of life with Alice"}      
+{"Location": "Wonderland's court", "Background": "Cheshire Cat offers Alice advice on how to outwit the Queen of Hearts"}
+{"Location": "Mad Tea Party", "Background": "Cheshire Cat entertains Alice with stories about his travels"}
+{"Location": "Mushroom forest", "Background": "Cheshire Cat challenges Alice to a game of riddles"}
+{"Location": "Queen's croquet game", "Background": "Cheshire Cat helps Alice navigate the treacherous court"}
+{"Location": "Tea party with the Mad Hatter and March Hare", "Background": "Cheshire Cat teases the Mad Hatter with whimsical jokes"}
+{"Location": "Cheshire Cat's tree branch", "Background": "Cheshire Cat enlightens Alice on the meaning of dreams"}       
+{"Location": "Wonderland's palace", "Background": "Cheshire Cat baffles the Queen with his enigmatic smile"}
+{"Location": "Tea party with the Mad Hatter and March Hare", "Background": "Cheshire Cat challenges Alice to a game of wits"}
+{"Location": "Cheshire Cat's tree branch", "Background": "Cheshire Cat warns Alice of impending dangers in Wonderland"}  
+{"Location": "Queen's croquet game", "Background": "Cheshire Cat helps Alice navigate the chaotic game with clever distractions"}
+
+{"Location": "Inside the house", "Background": "Cheshire-Cat sits next to the cook, seemingly oblivious to the chaos in the kitchen."},
+{"Location": "On a bough of a tree", "Background": "Cheshire-Cat delivers a series of confusing answers to Alice's questions, leaving her bamboozled."},
+{"Location": "Wonderland", "Background": "Cheshire-Cat asserts that Alice's visit proves she's mad, reflecting the absurdity of Wonderland."},
+{"Location": "Wonderland", "Background": "Cheshire-Cat shifts from physical visibility to a mere grin. This transition is witnessed by Alice."},
+{"Location": "Queen's Croquet game", "Background": "Cheshire-Cat, in a clairvoyant moment, predicts he'll see Alice at the game, although she hasn't shown any intent on going."},
+{"Location": "Wonderland", "Background": "Cheshire-Cat creates Alice's doubts about her sanity, indicating the madness of Wonderland."},
+{"Location": "Alice's conversation with Cheshire-Cat", "Background": "Cheshire-Cat confounds Alice's understanding of madness in the light of his disappearing act."},
+{"Location": "Wonderland", "Background": "The Cheshire-Cat appears and disappears frequently, causing Alice's dizziness."},
+{"Location": "House of the March Hare", "Background": "Cheshire-Cat does not indeed welcome Alice as an equal, showcasing the cat's patronizing demeanor."},
+{"Location": "Wonderland", "Background": "Cheshire-Cat remains elusive in his response to Alice's questions, further demonstrating the absurdity of Wonderland."},
+{"Location": "Croquet Garden", "Background": "Cheshire-Cat, along with other familiar characters, is mentioned to re-enter the croquet garden."},
+{"Location": "Alice's Trial", "Background": "Cheshire-Cat’s head materializes, without the body, leading to the cancellation of his execution."},
+{"Location": "Wonderland", "Background": "Cheshire-Cat mocks the madness of Wonderland by questioning the idea of a game with 'no rules'."},
+{"Location": "Wonderland", "Background": "Cheshire-Cat's persistent grin further confounds and frustrates Alice."},
+{"Location": "The Queen's Croquet game", "Background": "Cheshire-Cat pops out of nowhere to confuse and surprise Alice and the other characters."},
+{"Location": "Alice's conversation with the Cheshire-Cat", "Background": "Alice tries to understand the Cheshire-Cat’s principles about routes and directions, but ends up more perplexed."},
+{"Location": "Wonderland", "Background": "Cheshire-Cat's sudden reappearance and disappearance disrupts Alice's attention."},
+{"Location": "Wonderland", "Background": "Cheshire-Cat's grin symbolizes the enigmatic nature of Wonderland."},
+{"Location": "Wonderland", "Background": "Cheshire-Cat frustratingly talks about sights like a 'baby becoming a pig' as commonplace in Wonderland."},
+{"Location": "Alice's conversation with the Cheshire-Cat", "Background": "Cheshire-Cat underpins Alice's belief in her madness, thus unsettling her."}
