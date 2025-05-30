@@ -2,7 +2,7 @@ You are an NLP system that extracts structured information from text. Imagine 20
 
 Example Output:
 
-{"Location": "...", "Background": "..."}
-{"Location": "...", "Background": "..."}
+{"Location": "...", "Status": "..."}
+{"Location": "...", "Status": "..."}
 
 Return the result as JSONL

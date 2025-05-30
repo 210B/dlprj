@@ -1,5 +1,6 @@
 from openai import OpenAI
 import json
+import csv
 import os
 from dotenv import load_dotenv
 
@@ -8,33 +9,56 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=api_key)
 
-with open("prompts/experience_extraction_baseprompt.txt", "r", encoding="utf-8") as f:
+with open("prompts/experience_extraction_baseprompt copy.txt", "r", encoding="utf-8") as f:
     base_prompt = f.read()
-
-with open("prompts/White Rabbit.txt", "r", encoding="utf-8") as f:
-    summary_prompt = f.read()
 
 all_experience = []
 
-full_prompt = f"Context:\n\"\"\"\n{summary_prompt.strip()}\n\"\"\"{base_prompt.strip()}\n\n"
-# 프롬프트 요청
-response = client.chat.completions.create(
-    model="gpt-4.1",
-    messages=[
-        {"role": "user", "content": full_prompt}
-    ]
-    #,n=3
-)
+for i in range(1, 4):
+    summary_file = f"prompts/White Rabbit{i}.txt"
 
-for j, choice in enumerate(response.choices):
-    content = choice.message.content.strip()
-    print(f"\n--- Result {j+1} ---\n{content}\n")
+    with open(summary_file, "r", encoding="utf-8") as f:
+        summary_prompt = f.read()
 
-# 최종 JSONL 파일 저장
-output_path = "data/experience_extraction/experience.jsonl"
+    full_prompt = f"Context:\n\"\"\"\n{summary_prompt.strip()}\n\"\"\"{base_prompt.strip()}\n\n"
+
+    # 프롬프트 요청
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "user", "content": full_prompt}
+        ],
+        n=3
+    )
+
+    # 결과 저장
+    for j, choice in enumerate(response.choices):
+        content = choice.message.content.strip()
+        print(f"\n--- Result {i}-{j+1} ---\n{content}\n")
+
+        for line in content.splitlines():
+            line = line.strip()
+            if not line:
+                continue  # 빈 줄 건너뜀
+            try:
+                parsed = json.loads(line)
+                location = parsed.get("Location", "")
+                status = parsed.get("Status", "")
+                all_experience.append({
+                    "Location": location,
+                    "Status": status
+                })
+            except json.JSONDecodeError:
+                print(f"[Warning] Line skipped (invalid JSON): {line}")
+
+
+# CSV로 저장
+output_path = "data/experience_extraction/experience.csv"
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-with open(output_path, "w", encoding="utf-8") as f:
+with open(output_path, "w", newline="", encoding="utf-8") as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(["Location", "Status"])  # 헤더
+
     for experience in all_experience:
-        json_line = json.dumps(experience, ensure_ascii=False)
-        f.write(json_line + "\n")
+        writer.writerow([experience["Location"], experience["Status"]])
