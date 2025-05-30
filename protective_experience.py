@@ -31,8 +31,6 @@ response = client.chat.completions.create(
 for j, choice in enumerate(response.choices):
     content = choice.message.content.strip()
     print(f"\n--- Result {j+1} ---\n{content}\n")
-
-    # 그냥 전체 텍스트를 Dialogue로 저장
     all_experience.append({
         "Dialogue": content
     })
