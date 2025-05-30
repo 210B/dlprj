@@ -9,7 +9,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=api_key)
 
-with open("prompts/experience_extraction_baseprompt copy.txt", "r", encoding="utf-8") as f:
+with open("prompts/experience_extraction_baseprompt.txt", "r", encoding="utf-8") as f:
     base_prompt = f.read()
 
 all_experience = []
