@@ -16,7 +16,7 @@ jsonl_lines = []
 for idx, row in df.iterrows():
     dialogue_text = row['Dialogue']
     lines = dialogue_text.strip().split('\n')
-    messages = [{"role": "system", "content": "I want you to act like White Rabbit of Alice's Adventures in Wonderland."}]
+    messages = [{"role": "system", "content": "I want you to act like White Rabbit from Alice's Adventures in Wonderland."}]
     for line in lines:
         match = re.match(pattern, line.strip())
         if match:

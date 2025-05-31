@@ -26,7 +26,7 @@ for csv_file in csv_files:
 
         lines = dialogue_text.strip().split('\n')
 
-        system_message = f"I want you to act like White Rabbit of Alice's Adventures in Wonderland."
+        system_message = f"I want you to act like White Rabbit from Alice's Adventures in Wonderland."
         messages = [{"role": "system", "content": system_message}]
 
         for line in lines:
